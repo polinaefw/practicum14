@@ -24,7 +24,7 @@ def find_shortest_distance():
     min_distance = [10 ** 1000]
     def dfs(current, dist):
         """
-        Рекурсивная функция поиска в глубину      #смотрим все пути до конца потом если что не так возвращаемся
+        Рекурсивная функция поиска в глубину    
         """
         if current == end:
             if dist < min_distance[0]:
